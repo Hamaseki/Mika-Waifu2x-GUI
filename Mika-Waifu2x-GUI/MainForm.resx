@@ -1,0 +1,2811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialFlatButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialFlatButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="materialFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 530</value>
+  </data>
+  <data name="materialFlatButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 36</value>
+  </data>
+  <data name="materialFlatButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="materialFlatButton2.Text" xml:space="preserve">
+    <value>Secondary</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton2.Name" xml:space="preserve">
+    <value>materialFlatButton2</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialFlatButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="materialFlatButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 530</value>
+  </data>
+  <data name="materialFlatButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 36</value>
+  </data>
+  <data name="materialFlatButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialFlatButton1.Text" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Name" xml:space="preserve">
+    <value>materialFlatButton1</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="materialDivider1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="materialDivider1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 527</value>
+  </data>
+  <data name="materialDivider1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialDivider1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 1</value>
+  </data>
+  <data name="materialDivider1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="materialDivider1.Text" xml:space="preserve">
+    <value>materialDivider1</value>
+  </data>
+  <data name="&gt;&gt;materialDivider1.Name" xml:space="preserve">
+    <value>materialDivider1</value>
+  </data>
+  <data name="&gt;&gt;materialDivider1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialDivider, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialDivider1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialDivider1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="materialTabSelector1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="materialTabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.Name" xml:space="preserve">
+    <value>materialFlatButton7</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.Name" xml:space="preserve">
+    <value>materialRaisedButton5</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.Name" xml:space="preserve">
+    <value>materialSingleLineTextField2</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.Name" xml:space="preserve">
+    <value>materialSingleLineTextField1</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.Name" xml:space="preserve">
+    <value>materialRaisedButton3</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.Name" xml:space="preserve">
+    <value>materialRaisedButton2</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SelectPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="SelectPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 323</value>
+  </data>
+  <data name="SelectPic.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SelectPic.Text" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;SelectPic.Name" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;SelectPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectPic.Parent" xml:space="preserve">
+    <value>PicTab</value>
+  </data>
+  <data name="&gt;&gt;SelectPic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.Name" xml:space="preserve">
+    <value>materialFlatButton8</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Name" xml:space="preserve">
+    <value>materialLabel9</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
+    <value>materialLabel8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Name" xml:space="preserve">
+    <value>materialLabel7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sST.Name" xml:space="preserve">
+    <value>sST</value>
+  </data>
+  <data name="&gt;&gt;sST.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sST.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;sST.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
+    <value>materialLabel6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nST.Name" xml:space="preserve">
+    <value>nST</value>
+  </data>
+  <data name="&gt;&gt;nST.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nST.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;nST.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ProSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ProSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ProSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 323</value>
+  </data>
+  <data name="ProSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ProSetting.Text" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;ProSetting.Name" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;ProSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProSetting.Parent" xml:space="preserve">
+    <value>PicTab</value>
+  </data>
+  <data name="&gt;&gt;ProSetting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Name" xml:space="preserve">
+    <value>materialLabel11</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Parent" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.Name" xml:space="preserve">
+    <value>materialProgressBar1</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialProgressBar, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.Parent" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Name" xml:space="preserve">
+    <value>materialLabel10</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Parent" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Run.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Run.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 323</value>
+  </data>
+  <data name="Run.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Run.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;Run.Name" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;Run.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Run.Parent" xml:space="preserve">
+    <value>PicTab</value>
+  </data>
+  <data name="&gt;&gt;Run.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialRaisedButton6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialRaisedButton6.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialRaisedButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 156</value>
+  </data>
+  <data name="materialRaisedButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 36</value>
+  </data>
+  <data name="materialRaisedButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialRaisedButton6.Text" xml:space="preserve">
+    <value>立即开始</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton6.Name" xml:space="preserve">
+    <value>materialRaisedButton6</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton6.Parent" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 85</value>
+  </data>
+  <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialLabel1.Text" xml:space="preserve">
+    <value>欢迎使用Mika-Waifu2x-GUI图片放大</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
+    <value>materialLabel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Parent" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 323</value>
+  </data>
+  <data name="Start.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Start.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;Start.Name" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;Start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Start.Parent" xml:space="preserve">
+    <value>PicTab</value>
+  </data>
+  <data name="&gt;&gt;Start.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.Name" xml:space="preserve">
+    <value>RadioCX</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.Name" xml:space="preserve">
+    <value>RadioMIKA</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.Name" xml:space="preserve">
+    <value>materialFlatButton6</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="One.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="One.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="One.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 323</value>
+  </data>
+  <data name="One.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="One.Text" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;One.Name" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;One.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;One.Parent" xml:space="preserve">
+    <value>PicTab</value>
+  </data>
+  <data name="&gt;&gt;One.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.Name" xml:space="preserve">
+    <value>reUNRAR</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
+    <value>materialLabel5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.Name" xml:space="preserve">
+    <value>PicBar1</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialProgressBar, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Download.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Download.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Download.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 323</value>
+  </data>
+  <data name="Download.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Download.Text" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;Download.Name" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;Download.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Download.Parent" xml:space="preserve">
+    <value>PicTab</value>
+  </data>
+  <data name="&gt;&gt;Download.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PicTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="PicTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 349</value>
+  </data>
+  <data name="PicTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PicTab.Name" xml:space="preserve">
+    <value>PicTab</value>
+  </data>
+  <data name="&gt;&gt;PicTab.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PicTab.Parent" xml:space="preserve">
+    <value>PicFix</value>
+  </data>
+  <data name="&gt;&gt;PicTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PicFix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="PicFix.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="PicFix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 345</value>
+  </data>
+  <data name="PicFix.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PicFix.Text" xml:space="preserve">
+    <value>PicFix</value>
+  </data>
+  <data name="&gt;&gt;PicFix.Name" xml:space="preserve">
+    <value>PicFix</value>
+  </data>
+  <data name="&gt;&gt;PicFix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PicFix.Parent" xml:space="preserve">
+    <value>TabCon2</value>
+  </data>
+  <data name="&gt;&gt;PicFix.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabCon2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="TabCon2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 371</value>
+  </data>
+  <data name="TabCon2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TabCon2.Name" xml:space="preserve">
+    <value>TabCon2</value>
+  </data>
+  <data name="&gt;&gt;TabCon2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TabCon2.Parent" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;TabCon2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="All.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="All.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="All.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 387</value>
+  </data>
+  <data name="All.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="All.Text" xml:space="preserve">
+    <value>图片放大</value>
+  </data>
+  <data name="&gt;&gt;All.Name" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;All.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;All.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;All.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.Name" xml:space="preserve">
+    <value>materialRaisedButton4</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.Parent" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Name" xml:space="preserve">
+    <value>materialRaisedButton1</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Parent" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 387</value>
+  </data>
+  <data name="Setting.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Setting.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="&gt;&gt;Setting.Name" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;Setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Setting.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;Setting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.Name" xml:space="preserve">
+    <value>materialCheckbox2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.Name" xml:space="preserve">
+    <value>materialCheckbox3</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.Name" xml:space="preserve">
+    <value>materialCheckBox6</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.Name" xml:space="preserve">
+    <value>materialCheckbox1</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.Name" xml:space="preserve">
+    <value>materialCheckBox5</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.Name" xml:space="preserve">
+    <value>materialCheckbox4</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AboutTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="AboutTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="AboutTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 387</value>
+  </data>
+  <data name="AboutTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AboutTab.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.Name" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 102</value>
+  </data>
+  <data name="materialTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 413</value>
+  </data>
+  <data name="materialTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.Name" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialTabSelector1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="materialTabSelector1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 44</value>
+  </data>
+  <data name="materialTabSelector1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="materialTabSelector1.Text" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Name" xml:space="preserve">
+    <value>materialTabSelector1</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialTabSelector1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadioCX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioCX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="RadioCX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioCX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 112</value>
+  </data>
+  <data name="RadioCX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="RadioCX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 30</value>
+  </data>
+  <data name="RadioCX.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RadioCX.Text" xml:space="preserve">
+    <value>下载源1：超星云（速度快但容易崩）</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.Name" xml:space="preserve">
+    <value>RadioCX</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;RadioCX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RadioMIKA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioMIKA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="RadioMIKA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioMIKA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 155</value>
+  </data>
+  <data name="RadioMIKA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="RadioMIKA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 30</value>
+  </data>
+  <data name="RadioMIKA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RadioMIKA.Text" xml:space="preserve">
+    <value>下载源2：MIKA云（自家服务，速度慢但稳定）</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.Name" xml:space="preserve">
+    <value>RadioMIKA</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;RadioMIKA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialFlatButton6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton6.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton6.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        gg==
+</value>
+  </data>
+  <data name="materialFlatButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialFlatButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 203</value>
+  </data>
+  <data name="materialFlatButton6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 36</value>
+  </data>
+  <data name="materialFlatButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialFlatButton6.Text" xml:space="preserve">
+    <value>使用选择的源下载</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.Name" xml:space="preserve">
+    <value>materialFlatButton6</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 66</value>
+  </data>
+  <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialLabel3.Text" xml:space="preserve">
+    <value>提示：该程序基于waifu2x（含ncnn,caffe）开源项目，
+需要下载waifu2x-ncnn核心（解压后约38mb）
+使用即代表你同意Mika用户协议以及waifu2x-EULA</value>
+  </data>
+  <data name="materialLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="reUNRAR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reUNRAR.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="reUNRAR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="reUNRAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 107</value>
+  </data>
+  <data name="reUNRAR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="reUNRAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 36</value>
+  </data>
+  <data name="reUNRAR.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="reUNRAR.Text" xml:space="preserve">
+    <value>重新解压</value>
+  </data>
+  <data name="reUNRAR.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.Name" xml:space="preserve">
+    <value>reUNRAR</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;reUNRAR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialLabel5.Text" xml:space="preserve">
+    <value>--/--</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
+    <value>materialLabel5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PicBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PicBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 42</value>
+  </data>
+  <data name="PicBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 5</value>
+  </data>
+  <data name="PicBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.Name" xml:space="preserve">
+    <value>PicBar1</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialProgressBar, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;PicBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialLabel4.Text" xml:space="preserve">
+    <value>下载中ε=ε=ε=(~￣▽￣)~</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialFlatButton7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton7.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 98</value>
+  </data>
+  <data name="materialFlatButton7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 36</value>
+  </data>
+  <data name="materialFlatButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="materialFlatButton7.Text" xml:space="preserve">
+    <value>高级选项</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.Name" xml:space="preserve">
+    <value>materialFlatButton7</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialRaisedButton5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialRaisedButton5.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialRaisedButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 98</value>
+  </data>
+  <data name="materialRaisedButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 36</value>
+  </data>
+  <data name="materialRaisedButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="materialRaisedButton5.Text" xml:space="preserve">
+    <value>开始！ヾ(≧▽≦*)o</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.Name" xml:space="preserve">
+    <value>materialRaisedButton5</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        gg==
+</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 159</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 161</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="pictureBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialSingleLineTextField2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="materialSingleLineTextField2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 27</value>
+  </data>
+  <data name="materialSingleLineTextField2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.Name" xml:space="preserve">
+    <value>materialSingleLineTextField2</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialSingleLineTextField1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 13</value>
+  </data>
+  <data name="materialSingleLineTextField1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 27</value>
+  </data>
+  <data name="materialSingleLineTextField1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.Name" xml:space="preserve">
+    <value>materialSingleLineTextField1</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialSingleLineTextField1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialRaisedButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialRaisedButton3.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialRaisedButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialRaisedButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 47</value>
+  </data>
+  <data name="materialRaisedButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 36</value>
+  </data>
+  <data name="materialRaisedButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="materialRaisedButton3.Text" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.Name" xml:space="preserve">
+    <value>materialRaisedButton3</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="materialRaisedButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialRaisedButton2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialRaisedButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialRaisedButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 4</value>
+  </data>
+  <data name="materialRaisedButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 36</value>
+  </data>
+  <data name="materialRaisedButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="materialRaisedButton2.Text" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.Name" xml:space="preserve">
+    <value>materialRaisedButton2</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.Parent" xml:space="preserve">
+    <value>SelectPic</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="materialFlatButton8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton8.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 278</value>
+  </data>
+  <data name="materialFlatButton8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 36</value>
+  </data>
+  <data name="materialFlatButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="materialFlatButton8.Text" xml:space="preserve">
+    <value>←返回</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.Name" xml:space="preserve">
+    <value>materialFlatButton8</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;jpgR.Name" xml:space="preserve">
+    <value>jpgR</value>
+  </data>
+  <data name="&gt;&gt;jpgR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;jpgR.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;jpgR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;webpR.Name" xml:space="preserve">
+    <value>webpR</value>
+  </data>
+  <data name="&gt;&gt;webpR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;webpR.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;webpR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pngR.Name" xml:space="preserve">
+    <value>pngR</value>
+  </data>
+  <data name="&gt;&gt;pngR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pngR.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pngR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 159</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 53</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="jpgR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="jpgR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="jpgR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 10</value>
+  </data>
+  <data name="jpgR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="jpgR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 30</value>
+  </data>
+  <data name="jpgR.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="jpgR.Text" xml:space="preserve">
+    <value>jpg</value>
+  </data>
+  <data name="&gt;&gt;jpgR.Name" xml:space="preserve">
+    <value>jpgR</value>
+  </data>
+  <data name="&gt;&gt;jpgR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;jpgR.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;jpgR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="webpR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="webpR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="webpR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 10</value>
+  </data>
+  <data name="webpR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="webpR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="webpR.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="webpR.Text" xml:space="preserve">
+    <value>webp</value>
+  </data>
+  <data name="&gt;&gt;webpR.Name" xml:space="preserve">
+    <value>webpR</value>
+  </data>
+  <data name="&gt;&gt;webpR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;webpR.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;webpR.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pngR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pngR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="pngR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 10</value>
+  </data>
+  <data name="pngR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pngR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 30</value>
+  </data>
+  <data name="pngR.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pngR.Text" xml:space="preserve">
+    <value>png</value>
+  </data>
+  <data name="&gt;&gt;pngR.Name" xml:space="preserve">
+    <value>pngR</value>
+  </data>
+  <data name="&gt;&gt;pngR.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pngR.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pngR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GPU0.Name" xml:space="preserve">
+    <value>GPU0</value>
+  </data>
+  <data name="&gt;&gt;GPU0.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GPU0.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;GPU0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GPU1.Name" xml:space="preserve">
+    <value>GPU1</value>
+  </data>
+  <data name="&gt;&gt;GPU1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GPU1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;GPU1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GPU2.Name" xml:space="preserve">
+    <value>GPU2</value>
+  </data>
+  <data name="&gt;&gt;GPU2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GPU2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;GPU2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 112</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 41</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GPU0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GPU0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="GPU0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="GPU0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="GPU0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="GPU0.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GPU0.Text" xml:space="preserve">
+    <value>GPU0</value>
+  </data>
+  <data name="&gt;&gt;GPU0.Name" xml:space="preserve">
+    <value>GPU0</value>
+  </data>
+  <data name="&gt;&gt;GPU0.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GPU0.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;GPU0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GPU1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GPU1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="GPU1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 8</value>
+  </data>
+  <data name="GPU1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="GPU1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="GPU1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GPU1.Text" xml:space="preserve">
+    <value>GPU1</value>
+  </data>
+  <data name="&gt;&gt;GPU1.Name" xml:space="preserve">
+    <value>GPU1</value>
+  </data>
+  <data name="&gt;&gt;GPU1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GPU1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;GPU1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GPU2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GPU2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="GPU2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GPU2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 8</value>
+  </data>
+  <data name="GPU2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="GPU2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="GPU2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GPU2.Text" xml:space="preserve">
+    <value>GPU2</value>
+  </data>
+  <data name="&gt;&gt;GPU2.Name" xml:space="preserve">
+    <value>GPU2</value>
+  </data>
+  <data name="&gt;&gt;GPU2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GPU2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;GPU2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 173</value>
+  </data>
+  <data name="materialLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="materialLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialLabel9.Text" xml:space="preserve">
+    <value>导出格式(-f)</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Name" xml:space="preserve">
+    <value>materialLabel9</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 120</value>
+  </data>
+  <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialLabel8.Text" xml:space="preserve">
+    <value>显卡id(-g)</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
+    <value>materialLabel8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 71</value>
+  </data>
+  <data name="materialLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="materialLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialLabel7.Text" xml:space="preserve">
+    <value>缩放级别：(1或2）</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Name" xml:space="preserve">
+    <value>materialLabel7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="sST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 71</value>
+  </data>
+  <data name="sST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 27</value>
+  </data>
+  <data name="sST.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sST.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;sST.Name" xml:space="preserve">
+    <value>sST</value>
+  </data>
+  <data name="&gt;&gt;sST.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sST.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;sST.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="materialLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 31</value>
+  </data>
+  <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="materialLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialLabel6.Text" xml:space="preserve">
+    <value>降噪级别：(-1到3）</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
+    <value>materialLabel6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="nST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 31</value>
+  </data>
+  <data name="nST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 27</value>
+  </data>
+  <data name="nST.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="nST.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;nST.Name" xml:space="preserve">
+    <value>nST</value>
+  </data>
+  <data name="&gt;&gt;nST.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSingleLineTextField, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nST.Parent" xml:space="preserve">
+    <value>ProSetting</value>
+  </data>
+  <data name="&gt;&gt;nST.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="materialLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 77</value>
+  </data>
+  <data name="materialLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 66</value>
+  </data>
+  <data name="materialLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialLabel11.Text" xml:space="preserve">
+    <value>由于神经网络模块较大，
+所以当快速加载时程序会假死，望谅解(。・∀・)ノ
+（实际上就是我多线程没用好doge）</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Name" xml:space="preserve">
+    <value>materialLabel11</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Parent" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 53</value>
+  </data>
+  <data name="materialProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 5</value>
+  </data>
+  <data name="materialProgressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.Name" xml:space="preserve">
+    <value>materialProgressBar1</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialProgressBar, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.Parent" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;materialProgressBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Regular, 11pt</value>
+  </data>
+  <data name="materialLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 12</value>
+  </data>
+  <data name="materialLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="materialLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materialLabel10.Text" xml:space="preserve">
+    <value>神经网络运行中...</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Name" xml:space="preserve">
+    <value>materialLabel10</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Parent" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialRaisedButton4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="materialRaisedButton4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialRaisedButton4.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialRaisedButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialRaisedButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 338</value>
+  </data>
+  <data name="materialRaisedButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 36</value>
+  </data>
+  <data name="materialRaisedButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="materialRaisedButton4.Text" xml:space="preserve">
+    <value>五颜六色切换</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.Name" xml:space="preserve">
+    <value>materialRaisedButton4</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.Parent" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialRaisedButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="materialRaisedButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialRaisedButton1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialRaisedButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialRaisedButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 338</value>
+  </data>
+  <data name="materialRaisedButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 36</value>
+  </data>
+  <data name="materialRaisedButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialRaisedButton1.Text" xml:space="preserve">
+    <value>黑/白主题切换</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Name" xml:space="preserve">
+    <value>materialRaisedButton1</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Parent" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialCheckbox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialCheckbox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="materialCheckbox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckbox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 35</value>
+  </data>
+  <data name="materialCheckbox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialCheckbox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="materialCheckbox2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialCheckbox2.Text" xml:space="preserve">
+    <value>materialCheckbox2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.Name" xml:space="preserve">
+    <value>materialCheckbox2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialCheckbox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialCheckbox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="materialCheckbox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckbox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 63</value>
+  </data>
+  <data name="materialCheckbox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialCheckbox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="materialCheckbox3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="materialCheckbox3.Text" xml:space="preserve">
+    <value>materialCheckbox3</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.Name" xml:space="preserve">
+    <value>materialCheckbox3</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialCheckBox6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialCheckBox6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialCheckBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="materialCheckBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 146</value>
+  </data>
+  <data name="materialCheckBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialCheckBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="materialCheckBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="materialCheckBox6.Text" xml:space="preserve">
+    <value>materialCheckBox6</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.Name" xml:space="preserve">
+    <value>materialCheckBox6</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialCheckbox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialCheckbox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="materialCheckbox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckbox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 7</value>
+  </data>
+  <data name="materialCheckbox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialCheckbox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="materialCheckbox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialCheckbox1.Text" xml:space="preserve">
+    <value>materialCheckbox1</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.Name" xml:space="preserve">
+    <value>materialCheckbox1</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialCheckBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialCheckBox5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialCheckBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="materialCheckBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 118</value>
+  </data>
+  <data name="materialCheckBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialCheckBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="materialCheckBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="materialCheckBox5.Text" xml:space="preserve">
+    <value>materialCheckBox5</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.Name" xml:space="preserve">
+    <value>materialCheckBox5</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialCheckbox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialCheckbox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>思源黑体 CN Medium, 10pt</value>
+  </data>
+  <data name="materialCheckbox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckbox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 90</value>
+  </data>
+  <data name="materialCheckbox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialCheckbox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="materialCheckbox4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialCheckbox4.Text" xml:space="preserve">
+    <value>materialCheckbox4</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.Name" xml:space="preserve">
+    <value>materialCheckbox4</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;materialCheckbox4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="materialContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="materialContextMenuStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="materialContextMenuStrip1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 8, 16, 8</value>
+  </data>
+  <data name="materialContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 130</value>
+  </data>
+  <data name="&gt;&gt;materialContextMenuStrip1.Name" xml:space="preserve">
+    <value>materialContextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;materialContextMenuStrip1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialContextMenuStrip, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="item1ToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="item1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="item1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Item 1</value>
+  </data>
+  <data name="subItem1ToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="subItem1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 30</value>
+  </data>
+  <data name="subItem1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>SubItem 1</value>
+  </data>
+  <data name="subItem2ToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="subItem2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 30</value>
+  </data>
+  <data name="subItem2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>SubItem 2</value>
+  </data>
+  <data name="disabledItemToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="disabledItemToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="disabledItemToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="disabledItemToolStripMenuItem.Text" xml:space="preserve">
+    <value>Disabled item</value>
+  </data>
+  <data name="item2ToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="item2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="item2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Item 2</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 6</value>
+  </data>
+  <data name="item3ToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="item3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="item3ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Item 3</value>
+  </data>
+  <data name="materialFlatButton3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="materialFlatButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton3.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialFlatButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialFlatButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 530</value>
+  </data>
+  <data name="materialFlatButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 36</value>
+  </data>
+  <data name="materialFlatButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="materialFlatButton3.Text" xml:space="preserve">
+    <value>DISABLED</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton3.Name" xml:space="preserve">
+    <value>materialFlatButton3</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>506, 573</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mika-Waifu2x图片放大</value>
+  </data>
+  <data name="&gt;&gt;item1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>item1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;item1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;subItem1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>subItem1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;subItem1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;subItem2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>subItem2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;subItem2ToolStripMenuItem.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;disabledItemToolStripMenuItem.Name" xml:space="preserve">
+    <value>disabledItemToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;disabledItemToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;item2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>item2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;item2ToolStripMenuItem.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;item3ToolStripMenuItem.Name" xml:space="preserve">
+    <value>item3ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;item3ToolStripMenuItem.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
