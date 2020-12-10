@@ -1,136 +1,34 @@
-MaterialSkin for .NET WinForms
+Mika-Waifu2x图片放大工具
 =====================
 
-Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles.
-
-<a href="https://www.youtube.com/watch?v=A8osVM_SXlg" target="_blank">![alt tag](http://i.imgur.com/JAttoOo.png)</a>
-
-*High quality images can be found at the bottom of this page.*
-
----
-
-#### Current state of the MaterialSkin components
-Component | Supported | Dark & light version | Disabled mode | Animated
---- | --- | --- | --- | ---
-Checkbox | Yes | Yes | Yes | Yes 
-Divider | Yes | Yes | N/A | N/A 
-Flat Button | Yes | Yes | Yes | Yes 
-Label | Yes | Yes | N/A | N/A
-Radio Button | Yes | Yes | Yes | Yes
-Raised Button | Yes | Yes | Yes | Yes 
-Single-line text field | Yes | Yes | No | Yes
-TabControl | Yes | N/A | N/A | Yes
-ContextMenuStrip | Yes | Yes | Yes | Yes
-ListView | Yes | Yes | No | No
-ProgressBar | Yes | Yes | No | No 
-FloatingActionButton | No | No | No | No
-Dialogs | No | No | No | No
-Switch | No | No | No | No
-More... | No | No | No | No
+简简单单的图片放大，清晰度修复工具，基于 [waifu2x-ncnn-vulkan](https://github.com/IgnaceMaes/MaterialSkin)，由sout编写
+简简单单的MD风格，简简单单的功能，简简单单的操作，~~简简单单的bug~~
+很不好意思的是，因为我太着急，所以没把它写完就放在了这里
+#### 目前已知bug：设置页面退不回去，修复过程会假死（多线程问题），没有好看的图标，~~猛男颜文字太少╯︿╰~~
 
 ---
 
-#### Implementing MaterialSkin in your application
-
-**1. Add the library to your project**
-
-  You can do this on multiple ways. The easiest way would be adding the [NuGet Package](https://www.nuget.org/packages/MaterialSkin/). Right click on your project and click 'Manage NuGet Packages...'. Search for 'MaterialSkin' and click on install. Once installed the library will be included in your project references. (Or install it through the package manager console: PM> Install-Package MaterialSkin)
-
-Another way of doing this step would be cloning the project from GitHub, compiling the library yourself and adding it as a reference.
-  
-**2. Add the MaterialSkin components to your ToolBox**
-
-  If you have installed the NuGet package, the MaterialSkin.dll file should be in the folder //bin/Debug. Simply drag the MaterialSkin.dll file into your IDE's ToolBox and all the controls should be added there.
-  
-**3. Inherit from MaterialForm**
-
-  Open the code behind your Form you wish to skin. Make it inherit from MaterialForm rather than Form. Don't forget to put the library in your imports, so it can find the MaterialForm class!
-  
-  C# (Form1.cs)
-  ```cs
-  public partial class Form1 : MaterialForm
-  ```
-  
-  VB.NET (Form1.Designer.vb)
-  ```vb
-  Partial Class Form1
-    Inherits MaterialSkin.Controls.MaterialForm
-  ```
-  
-**4. Initialize your colorscheme**
-
-  Set your preferred colors & theme. Also add the form to the manager so it keeps updated if the color scheme or theme changes later on.
-
-C# (Form1.cs)
-  ```cs
-  public Form1()
-  {
-      InitializeComponent();
-
-      var materialSkinManager = MaterialSkinManager.Instance;
-      materialSkinManager.AddFormToManage(this);
-      materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-      materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
-  }
-  ```
-
-VB.NET (Form1.vb)
-```vb
-Imports MaterialSkin
-
-Public Class Form1
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim SkinManager As MaterialSkinManager = MaterialSkinManager.Instance
-        SkinManager.AddFormToManage(Me)
-        SkinManager.Theme = MaterialSkinManager.Themes.LIGHT
-        SkinManager.ColorScheme = New ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE)
-    End Sub
-End Class
-```
+## 功能概述
+功能 | 选项
+--- | --- 
+降噪 | 3级(-1~3)
+缩放 | 2级
+显卡支持 | Nvidia/Intel/AMD
+导出格式 | png/jpg/webp
 
 ---
 
-#### Material Design in WPF
+## 截图预览
 
-If you love .NET and Material Design, you should definitely check out [Material Design Xaml Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) by ButchersBoy. It's a similar project but for WPF instead of WinForms.
+![avatar](https://ae01.alicdn.com/kf/He0f4d992023f4b1a8899b18930ee14c87.png)
+*简陋的界面*
 
----
+![avatar](https://ae01.alicdn.com/kf/Ha7edfd7e00174b77970654eb1ac49640x.png)
+*黑不拉几绿不拉几的界面*
 
-
-#### State of the project
-
-This project is no longer under active development. Though, contributions are still welcome and the community will likely still help if you open an issue.
-
----
-
-#### Contact
-
-If you wish to contact me for anything you can get in touch at:
-
-- Twitter: https://twitter.com/Ignace_Maes
-- Personal Website: http://ignacemaes.com
+![avatar](https://ae01.alicdn.com/kf/He0f4d992023f4b1a8899b18930ee14c87.png)
+*设置页面*
 
 ---
 
-#### Images
-
-![alt tag](http://i.imgur.com/Ub0N9Xf.png)
-
-*A simple demo interface with MaterialSkin components.*
-
-![alt tag](http://i.imgur.com/eIAtRkc.png)
-
-*The MaterialSkin checkboxes.*
-
-![alt tag](http://i.imgur.com/sAPyvdH.png)
-
-*The MaterialSkin radiobuttons.*
-
-![alt tag](http://i.imgur.com/3Zpuv6x.png)
-
-*The MaterialSkin ListView.*
-
-![alt tag](http://i.imgur.com/07MrJZQ.png)
-
-*MaterialSkin using a custom color scheme.*
+## 关于
