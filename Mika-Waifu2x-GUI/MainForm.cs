@@ -516,8 +516,11 @@ namespace MikaMinecraftServers
                 formatPic = "jpg";
             else if (webpR.Checked == true)
                 formatPic = "webp";
-            materialSingleLineTextField2.Text= Path.GetDirectoryName(materialSingleLineTextField1.Text)+Path.GetFileNameWithoutExtension(materialSingleLineTextField1.Text) + "_" + DataTimeS + "." + formatPic;
-            if (C_n== -1||C_n==1||C_n==2)
+            if(File.Exists(materialSingleLineTextField1.Text))
+            {
+                materialSingleLineTextField2.Text = Path.GetDirectoryName(materialSingleLineTextField1.Text) + "\\" + Path.GetFileNameWithoutExtension(materialSingleLineTextField1.Text) + "_" + DataTimeS + "." + formatPic;
+            }
+            if (C_n== -1||C_n==1||C_n==2||C_n==3)
             {
                 if(C_s==1||C_s==2)
                 {
@@ -533,6 +536,7 @@ namespace MikaMinecraftServers
                 MessageBox.Show("降噪或缩放参数错误！请重新填写╯︿╰");
             }
             
+
         }
 
         static string Waifu2xPath = @System.AppDomain.CurrentDomain.BaseDirectory + "\\Tools\\waifu2x\\waifu2x_ncnn\\waifu2x-ncnn-vulkan.exe";
