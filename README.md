@@ -23,7 +23,7 @@ Mika-Waifu2x图片放大工具
 ---
 
 ## 截图预览
-
+<img src="https://img-blog.csdn.net/20151129213701642" width=256 height=256 />
 ![avatar](https://ae01.alicdn.com/kf/He0f4d992023f4b1a8899b18930ee14c87.png)
 
 *简陋的界面*
