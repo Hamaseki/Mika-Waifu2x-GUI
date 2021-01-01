@@ -34,8 +34,16 @@ Mika-Waifu2x图片放大工具
 
 ![avatar](https://ae01.alicdn.com/kf/He0f4d992023f4b1a8899b18930ee14c87.png)
 
+
 *设置页面*
 
+![avatar](https://s3.ax1x.com/2021/01/01/rxDxwF.png)
+
+*修复前*
+
+![avatar](https://s3.ax1x.com/2021/01/01/rxDveU.png)
+
+*修复后*
 ---
 
 ## 关于
