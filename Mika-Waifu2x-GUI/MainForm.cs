@@ -406,6 +406,7 @@ namespace MikaMinecraftServers
             OpenFileDialog dialog = new OpenFileDialog();
             dialog.Multiselect = false;//该值确定是否可以选择多个文件
             dialog.Title = "选择你的图片╰(￣ω￣ｏ)";
+            //
             //dialog.Filter = "视频文件(*.mp4,.flv,.f4v,.webm,.m4v,.mov,.3gp,.3g2,.rm,.rmvb,.wmv,.avi,.asf,.mpg,.mpeg,.mpe,.ts,.div,.dv,.divx,.vob,.dat,.mkv,.swf,.lavf,.cpk,.dirac,.ram,.qt,.fli,.flc,.mod*)|*.mp4,.flv,.f4v,.webm,.m4v,.mov,.3gp,.3g2,.rm,.rmvb,.wmv,.avi,.asf,.mpg,.mpeg,.mpe,.ts,.div,.dv,.divx,.vob,.dat,.mkv,.swf,.lavf,.cpk,.dirac,.ram,.qt,.fli,.flc,.mod*";
             dialog.Filter = "图片文件(*.jpg;*.png;*.bmp;*.gif;*.tif;*.jpeg;*.tiff)|*.jpg;*.png;*.bmp;*.gif;*.tif;*.jpeg;*.tiff";
             if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
